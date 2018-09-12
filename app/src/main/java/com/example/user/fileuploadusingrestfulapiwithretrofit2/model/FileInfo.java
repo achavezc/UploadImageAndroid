@@ -1,22 +1,13 @@
 package com.example.user.fileuploadusingrestfulapiwithretrofit2.model;
 
 public class FileInfo {
-    private  String name;
-    private  long  fileSize;
+    private  String message;
 
-    public String getName() {
-        return name;
+    public String message() {
+        return message;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public long getFileSize() {
-        return fileSize;
-    }
-
-    public void setFileSize(long fileSize) {
-        this.fileSize = fileSize;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }

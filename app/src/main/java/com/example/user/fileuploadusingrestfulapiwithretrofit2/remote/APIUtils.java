@@ -5,7 +5,7 @@ public class APIUtils {
     private APIUtils(){
 
     }
-    public  static  final String API_URL = "http://localhost:3000/";
+    public  static  final String API_URL = "http://54.214.60.111:9000/";
 
     public  static FileService getFileService(){
         return RetrofitClient.getClient(API_URL).create(FileService.class);
